@@ -1,4 +1,4 @@
-import lombok.Builder;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,7 +7,7 @@ import lombok.Setter;
 public class Perecedero extends Producto{
     private int diasPorCaducar;
 
-    @Builder
+
     public Perecedero(String nombre, double precio, int diasPorCaducar) {
         super(nombre, precio);
         this.diasPorCaducar = diasPorCaducar;
